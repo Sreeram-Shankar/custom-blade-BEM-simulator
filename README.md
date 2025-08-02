@@ -1,16 +1,5 @@
-# custom-blade-BEM-simulator
- Python-based Blade Element Momentum (BEM) simulator for custom wind turbine blade design. Supports user-drawn blade profiles, NeuralFoil-based polar generation, and full aerodynamic analysis across wind speeds and angles.
-
-ChatGPT said:
-Here’s the complete README.md (no emojis) and requirements.txt for your Custom Blade BEM Simulator. You can paste both directly into GitHub without modification.
-
-README.md
-markdown
-Copy
-Edit
 # Custom Blade BEM Simulator
-
-This is a Python-based wind turbine Blade Element Momentum (BEM) simulator that allows users to design custom wind turbine blades and simulate aerodynamic performance across a wide range of wind conditions. The tool integrates aerodynamic polar data generated using NeuralFoil and produces detailed heatmaps, polar plots, and performance metrics for each design.
+ Python-based Blade Element Momentum (BEM) Theory simulator for custom wind turbine blade design. Supports user-drawn blade profiles, NeuralFoil-based polar generation, and full aerodynamic analysis across wind speeds and angles.
 
 ## Features
 

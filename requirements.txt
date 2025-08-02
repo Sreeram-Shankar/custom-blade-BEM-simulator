@@ -1,0 +1,7 @@
+numpy
+matplotlib
+scipy
+Pillow
+scikit-learn
+imageio
+joblib

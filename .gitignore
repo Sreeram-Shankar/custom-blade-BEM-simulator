@@ -1,0 +1,17 @@
+# Bytecode
+__pycache__/
+*.pyc
+
+# Output directories
+plots/
+radial_files/
+assets/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Environment
+.env
+.venv/
+*.egg-info/

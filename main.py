@@ -782,7 +782,7 @@ def calculations():
     file_paths.append(contour_plot(results, angles, wind_speeds, "Power Distribution (W)", "power", "power_contour_map.png"))
     plot_count += 1
     progress_bar["value"] = plot_count; main_label.config(text=f"Creating Plots: {plot_count}/20"); root.update()
-    file_paths.append(contour_plot(results, angles, wind_speeds, "Torque Distribution (N·m)", "torque", "thrust_contour_map.png"))
+    file_paths.append(contour_plot(results, angles, wind_speeds, "Torque Distribution (N·m)", "torque", "torque_contour_map.png"))
     plot_count += 1
     progress_bar["value"] = plot_count; main_label.config(text=f"Creating Plots: {plot_count}/20"); root.update()
 
@@ -884,6 +884,7 @@ create_labels()
 #runs the program
 if __name__ == "__main__":
     root.mainloop()
+
 
 
 
